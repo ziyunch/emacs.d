@@ -62,7 +62,9 @@
 (require 'init-flycheck)
 
 (require 'init-recentf)
+(require 'init-smex)
 (require 'init-ido)
+;; (require 'init-ivy)
 (require 'init-hippie-expand)
 (require 'init-company)
 (require 'init-windows)
@@ -78,6 +80,8 @@
 (require 'init-darcs)
 (require 'init-git)
 (require 'init-github)
+
+(require 'init-projectile)
 
 (require 'init-compile)
 (require 'init-crontab)
